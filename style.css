@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppin", sans-serif;
+}
+
+body{
+    background: #000336;
+}
+
+
+.main-container{
+    width: 100% ;
+    height: 100vh ;
+    background: url("john.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:contain;
+    
+}
+.btn{
+    /* background:rgb(236, 96, 96) ; */
+    width: 180px ;
+    height: 60px ;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    transform: translate(-50% , -50%);
+    top: 90%;
+    left: 50%;
+} 
+
+button{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    font-size: larger;
+    font-weight: 600;
+    background: black;
+    color: rgb(42, 249, 42);
+    border: 1px solid black;
+    border-radius: 5px ;
+    cursor: pointer;
+    transition: 0.4s linear;
+}
+button:hover {
+    background:rgb(45, 87, 194);
+    color: white;
+    border: 0.5px solid black;
+}
